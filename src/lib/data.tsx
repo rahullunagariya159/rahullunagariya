@@ -26,6 +26,7 @@ import LogoGreenApexLight from "/public/images/logos/logo-greenapex-light.svg";
 import LogoDepthin from "/public/images/logos/depthin-solution-fulllogo.png";
 import LogoFameUXDark from "/public/images/logos/fame-ux-dark-logo.png";
 import LogoFameUXLight from "/public/images/logos/fame-ux-light-logo.png";
+import LogoDayDreamSoftLight from "/public/images/logos/daydreamsoft-light-logo.png";
 import LogoDotnpixel from "/public/images/logos/logo-dotnpixel.svg";
 import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
 
@@ -177,7 +178,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoUpwork,
     logoAlt: "Upwork logo",
     position: "Independent Freelancer",
-    startDate: new Date(2021, 10),
+    startDate: new Date(2021, 12),
     currentlyWorkHere: true,
     summary: [
       "Worked for various clients like Joe Desouza, Dhaval Vora,Empyrean Lab.",
@@ -185,29 +186,29 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoFameUXDark,
-    darkModeLogo: LogoFameUXLight,
-    logoAlt: "FameUX logo",
+    logo: LogoDepthin,
+    darkModeLogo: LogoDepthin,
+    logoAlt: "Depthin Solution logo",
     position: "Senior frontend developer",
     startDate: new Date(2019, 8),
     endDate: new Date(2021, 11),
+    summary: [
+      "Worked as a Web/Mobile application developer (React / ReactNative / Node).",
+    ],
+  },
+  {
+    logo: LogoDayDreamSoftLight,
+    darkModeLogo: LogoDayDreamSoftLight,
+    logoAlt: "DayDreamSoft LLP logo",
+    position: "Frontend developer",
+    startDate: new Date(2018, 1),
+    endDate: new Date(2029, 7),
     summary: [
       "Acted as senior frontend developer in different projects.",
       "Brainstormed new ideas & gathered requirements for internal projects.",
       "Designed architecture of different projects (frontend).",
       "Worked on enterprise-level projects for a variety of clients.",
       "Handled sprint planning & task distribution.",
-    ],
-  },
-  {
-    logo: LogoDepthin,
-    darkModeLogo: LogoDepthin,
-    logoAlt: "Depthin Solution logo",
-    position: "Frontend Developer",
-    startDate: new Date(2018, 3),
-    endDate: new Date(2019, 7),
-    summary: [
-      "Worked as a Web/Mobile application developer (React / ReactNative / Node).",
     ],
   },
 ];
