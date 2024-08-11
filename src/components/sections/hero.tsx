@@ -34,7 +34,7 @@ const HeroSection = () => {
               with a focus on creating (and occasionally designing) exceptional
               digital experiences that are fast, accessible, visually appealing,
               and responsive. Even though I have been creating web/mobile
-              applications for over 4 years, I still love it as if it was
+              applications for over 5 years, I still love it as if it was
               something new.
             </Typography>
           </div>

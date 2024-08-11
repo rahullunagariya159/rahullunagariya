@@ -19,6 +19,7 @@ import LogoCypress from "/public/images/logos/icon-cypress.svg";
 import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
 import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
+import LogoSonarQube from "/public/images/logos/logo-sonarqube.svg";
 
 import LogoUpwork from "/public/images/logos/logo-upwork.svg";
 import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
@@ -162,6 +163,12 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: "https://www.cypress.io/",
   },
   {
+    label: "SonarQube",
+    logo: LogoSonarQube,
+    darkModeLogo: LogoSonarQube,
+    url: "https://docs.sonarsource.com/sonarqube/latest/",
+  },
+  {
     label: "Storybook",
     logo: LogoStorybook,
     url: "https://storybook.js.org/",
@@ -181,8 +188,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     startDate: new Date(2021, 12),
     currentlyWorkHere: true,
     summary: [
-      "Worked for various clients like Joe Desouza, Dhaval Vora,Empyrean Lab.",
-      "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.",
+      "Worked for various clients like Joe Desouza, Arash Karimi, Photon Technologies, Empyrean Lab.",
+      "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, SonarQube and others.",
     ],
   },
   {
@@ -287,17 +294,31 @@ export const TESTIMONIALS: TestimonialDetails[] = [
       "Amazing to work with. Very easy to talk with regarding issues, very responsive, fluent in English, amazing work and quality. I will continue to hire him in the future.",
   },
   {
+    personName: "Prashant R.",
+    personAvatar: AvatarDummy,
+    title: "Freelancer - Project manager at Photon Technologies",
+    testimonial:
+      "Rahul is very extremely smart and very knowledgeable programmer. Really loved his dedication.",
+  },
+  {
+    personName: "Arash Kharami",
+    personAvatar: AvatarDummy,
+    title: "Founder",
+    testimonial:
+      "Rahul is skilled javascript, CSS, and HTML developer. I'll work with him.",
+  },
+  {
     personName: "Gopinath Muthukrishna",
     personAvatar: AvatarDummy,
     title: "Freelancer - soli systems",
     testimonial:
       "I'm satisfied with work done, its been 4 or more months and Iam getting consistent results. And also complete work.",
   },
-  {
-    personName: "Shopmeister UG",
-    personAvatar: AvatarDummy,
-    title: "Freelancer",
-    testimonial:
-      "Rahul is very supportive and knowledgeable. He's very methodical and structured in his way of working. I would highly recommend him and likely have additional jobs for him in the future.",
-  },
+  // {
+  //   personName: "Shopmeister UG",
+  //   personAvatar: AvatarDummy,
+  //   title: "Freelancer",
+  //   testimonial:
+  //     "Rahul is very supportive and knowledgeable. He's very methodical and structured in his way of working. I would highly recommend him and likely have additional jobs for him in the future.",
+  // },
 ];
