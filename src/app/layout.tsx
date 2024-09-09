@@ -10,7 +10,7 @@ import Footer from "@/components/layout/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 const title =
-  "Rahul Lunagariya | Web and Mobile Application Developer From Surat, India.";
+  "Rahul Lunagariya | Web and Mobile Application Developer";
 const description =
   "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.";
 const url = "https://rahullunagariya.dev";

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import RahulFullPose from "/public/images/rahul-full-pose.jpg";
+import AvatarFullPose from "/public/images/avtar-left-side.svg";
 import Tag from "@/components/data-display/tag";
 import Container from "@/components/layout/container";
 import Typography from "@/components/general/typography";
@@ -17,9 +17,9 @@ const AboutMeSection = () => {
       <div className="flex w-full flex-col justify-between gap-12 md:flex-row">
         {/* Image */}
         <div className="flex justify-center md:order-first md:justify-end">
-          <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
+          <div  aria-label="animation" className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
             <Image
-              src={RahulFullPose}
+              src={AvatarFullPose}
               alt="Fullpose of Rahul"
               className="absolute z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:right-0 md:top-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
               style={{ objectFit: "cover" }}

@@ -25,6 +25,7 @@ import LogoUpwork from "/public/images/logos/logo-upwork.svg";
 import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
 import LogoGreenApexLight from "/public/images/logos/logo-greenapex-light.svg";
 import LogoDepthin from "/public/images/logos/depthin-solution-fulllogo.png";
+import LogoProdigybuild from "/public/images/logos/prodigybuild-light.png";
 import LogoFameUXDark from "/public/images/logos/fame-ux-dark-logo.png";
 import LogoFameUXLight from "/public/images/logos/fame-ux-light-logo.png";
 import LogoDayDreamSoftLight from "/public/images/logos/daydreamsoft-light-logo.png";
@@ -185,11 +186,22 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoUpwork,
     logoAlt: "Upwork logo",
     position: "Independent Freelancer",
-    startDate: new Date(2021, 12),
+    startDate: new Date(2022, 11),
     currentlyWorkHere: true,
     summary: [
-      "Worked for various clients like Joe Desouza, Arash Karimi, Photon Technologies, Empyrean Lab.",
+      "Worked for various clients like Joe Desouza, Arash Karimi, Jerry Virgo, Photon Technologies, Empyrean Lab.",
       "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, SonarQube and others.",
+    ],
+  },
+  {
+    logo: LogoProdigybuild,
+    logoAlt: "Prodigybuild",
+    position: "Senior frontend developer",
+    startDate: new Date(2024, 3),
+    currentlyWorkHere: true,
+    summary: [
+      "As we delve deeper into the realm of artificial intelligence and project management, it’s worth highlighting specific tools that exemplify this integration. Prodigybuild is one such tool that leverages AI to enhance Agile Project Management. It stands out as a platform that not only automates routine tasks but also provides intelligent insights into project health, resource allocation, and team performance. By integrating AI into its core functionalities, Prodigybuild helps teams stay agile, adapt to changes swiftly, and make data-driven decisions.",
+      "Worked with variety of technology, including React, Redux, Antd, Typescript, AWS, Lambda, Chatgpt4 etc.",
     ],
   },
   {
@@ -197,8 +209,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoDepthin,
     logoAlt: "Depthin Solution logo",
     position: "Senior frontend developer",
-    startDate: new Date(2019, 8),
-    endDate: new Date(2021, 11),
+    startDate: new Date(2020, 9),
+    endDate: new Date(2022, 10),
     summary: [
       "Worked as a Web/Mobile application developer (React / ReactNative / Node).",
     ],
@@ -208,8 +220,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoDayDreamSoftLight,
     logoAlt: "DayDreamSoft LLP logo",
     position: "Frontend developer",
-    startDate: new Date(2018, 1),
-    endDate: new Date(2029, 7),
+    startDate: new Date(2019, 11),
+    endDate: new Date(2020, 8),
     summary: [
       "Acted as senior frontend developer in different projects.",
       "Brainstormed new ideas & gathered requirements for internal projects.",
