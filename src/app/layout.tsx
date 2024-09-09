@@ -6,6 +6,8 @@ import "./globals.css";
 import Header from "@/components/layout/header";
 import { Providers } from "@/lib/providers";
 import Footer from "@/components/layout/footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -86,6 +88,8 @@ export default function RootLayout({
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
+          <Analytics />
+          <SpeedInsights />
           <Footer />
         </Providers>
       </body>
