@@ -1,11 +1,11 @@
-import Typography from '@/components/general/typography';
-import ImageWrapper from '@/components/data-display/image-wrapper';
-import Card from '@/components/layout/card';
-import { ExperienceDetails as ExperienceDetailsProps } from '@/lib/types';
+import Typography from "@/components/general/typography";
+import ImageWrapper from "@/components/data-display/image-wrapper";
+import Card from "@/components/layout/card";
+import { ExperienceDetails as ExperienceDetailsProps } from "@/lib/types";
 
 const dateFormatOptions: Intl.DateTimeFormatOptions = {
-  year: 'numeric',
-  month: 'short',
+  year: "numeric",
+  month: "short",
 };
 
 const ExperienceDetails = ({
@@ -42,17 +42,18 @@ const ExperienceDetails = ({
       </div>
       <div className="max-md:order-2 md:w-1/4">
         <Typography className="text-gray-700 md:text-right">
-          {new Intl.DateTimeFormat('en-US', dateFormatOptions).format(
-            startDate
-          )}{' '}
-          -{' '}
+          {startDate
+            ? `${new Intl.DateTimeFormat("en-US", dateFormatOptions).format(
+                startDate
+              )}  - `
+            : ""}{" "}
           {currentlyWorkHere
-            ? 'Present'
+            ? "Present"
             : endDate
-            ? new Intl.DateTimeFormat('en-US', dateFormatOptions).format(
+            ? new Intl.DateTimeFormat("en-US", dateFormatOptions).format(
                 endDate
               )
-            : 'NA'}
+            : "NA"}
         </Typography>
       </div>
     </Card>

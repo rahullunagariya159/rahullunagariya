@@ -6,13 +6,12 @@ import "./globals.css";
 import Header from "@/components/layout/header";
 import { Providers } from "@/lib/providers";
 import Footer from "@/components/layout/footer";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title =
-  "Rahul Lunagariya | Web and Mobile Application Developer";
+const title = "Rahul Lunagariya | Web and Mobile Application Developer";
 const description =
   "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.";
 const url = "https://rahullunagariya.dev";
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: "/images/open-graph-sagar.png",
+        url: "/images/open-graph-rahul.png",
       },
     ],
   },
@@ -49,7 +48,7 @@ export const metadata: Metadata = {
     title,
     description,
     creator: "@rahullunagariya",
-    images: "/images/open-graph-sagar.png",
+    images: "/images/open-graph-rahul.png",
   },
   icons: {
     icon: "/favicon.ico",

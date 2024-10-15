@@ -39,6 +39,11 @@ import ProjectPepehousing from "/public/images/project-pepehousing.png";
 import AvatarKrisztian from "/public/images/avatar-krisztian.png";
 import AvatarEugen from "/public/images/avatar-eugen.png";
 import AvatarDummy from "/public/images/avatar-dummy.svg";
+import WebProgramming from "/public/images/web-programming.png";
+import MobileDevelopment from "/public/images/mobile-development.png";
+import Deployment from "/public/images/deployment.png";
+import TechnicalSupport from "/public/images/technical-support.png";
+import Consultation from "/public/images/consultation.png";
 
 import {
   ExperienceDetails,
@@ -182,22 +187,22 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
-  {
-    logo: LogoUpwork,
-    logoAlt: "Upwork logo",
-    position: "Independent Freelancer",
-    startDate: new Date(2022, 11),
-    currentlyWorkHere: true,
-    summary: [
-      "Worked for various clients like Joe Desouza, Arash Karimi, Jerry Virgo, Photon Technologies, Empyrean Lab.",
-      "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, SonarQube and others.",
-    ],
-  },
+  // {
+  //   logo: LogoUpwork,
+  //   logoAlt: "Upwork logo",
+  //   position: "Independent Freelancer",
+  //   startDate: new Date(2022, 11),
+  //   currentlyWorkHere: true,
+  //   summary: [
+  //     "Worked for various clients like Joe Desouza, Arash Karimi, Jerry Virgo, Photon Technologies, Empyrean Lab.",
+  //     "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, SonarQube and others.",
+  //   ],
+  // },
   {
     logo: LogoProdigybuild,
     logoAlt: "Prodigybuild",
     position: "Senior frontend developer",
-    startDate: new Date(2024, 3),
+    // startDate: new Date(2024, 3),
     currentlyWorkHere: true,
     summary: [
       "As we delve deeper into the realm of artificial intelligence and project management, it’s worth highlighting specific tools that exemplify this integration. Prodigybuild is one such tool that leverages AI to enhance Agile Project Management. It stands out as a platform that not only automates routine tasks but also provides intelligent insights into project health, resource allocation, and team performance. By integrating AI into its core functionalities, Prodigybuild helps teams stay agile, adapt to changes swiftly, and make data-driven decisions.",
@@ -296,7 +301,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarDummy,
     title: "Freelancer",
     testimonial:
-      "Highly skilled React JS developer on Upwork. Proficient in multiple languages, frameworks, and technologies. Excellent communication and exceptional quality.",
+      "Highly skilled React JS developer. Proficient in multiple languages, frameworks, and technologies. Excellent communication and exceptional quality.",
   },
   {
     personName: "Eugen Esanu",
@@ -333,4 +338,42 @@ export const TESTIMONIALS: TestimonialDetails[] = [
   //   testimonial:
   //     "Rahul is very supportive and knowledgeable. He's very methodical and structured in his way of working. I would highly recommend him and likely have additional jobs for him in the future.",
   // },
+];
+
+export const SERVICES: TestimonialDetails[] = [
+  {
+    personName: "Web Development",
+    personAvatar: WebProgramming,
+    title: "",
+    testimonial:
+      "I bring websites to life, crafting user-friendly interfaces and interactive features. From e-commerce stores to informative landing pages, I build websites that look great and function flawlessly across all devices.",
+  },
+  {
+    personName: "Mobile Development",
+    personAvatar: MobileDevelopment,
+    title: "",
+    testimonial:
+      "Let's create engaging mobile apps! I specialize in developing user-centric cross plateform apps for iOS and Android, focusing on intuitive design and seamless functionality to elevate your mobile presence.",
+  },
+  {
+    personName: "Deployment",
+    personAvatar: Deployment,
+    title: "",
+    testimonial:
+      "I offer streamlined deployment services to ensure your application goes live seamlessly. From setting up hosting environments to configuring servers and deploying updates, I'll handle the technical details so you can focus on running your business.",
+  },
+  {
+    personName: "Maintenance and Support",
+    personAvatar: TechnicalSupport,
+    title: "",
+    testimonial:
+      "Once your project is live, I'll continue to provide ongoing maintenance and support to ensure it remains running smoothly. Whether it's fixing bugs, adding new features, or optimizing performance, I'll be there to keep your application running at its best.",
+  },
+  {
+    personName: "Consultation",
+    personAvatar: Consultation,
+    title: "",
+    testimonial:
+      "I offer consultation services to help you navigate the complexities of software development. Additionally, I can provide training sessions to your team to empower them with the skills needed to maintain and extend your application.",
+  },
 ];
