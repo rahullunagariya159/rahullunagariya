@@ -24,7 +24,7 @@ const ServicesSection = () => {
   };
 
   return (
-    <Container id="testimonials" className="bg-gray-50 py-12">
+    <Container id="services" className="bg-gray-50 py-12">
       <div className="flex flex-col items-center gap-4">
         <div className="self-center">
           <Tag label="Services" />

@@ -70,9 +70,13 @@ export const NAV_LINKS = [
     href: "#work",
   },
   {
-    label: "Testimonials",
-    href: "#testimonials",
+    label: "Services",
+    href: "#services",
   },
+  // {
+  //   label: "Testimonials",
+  //   href: "#testimonials",
+  // },
   {
     label: "Contact",
     href: "#contact",
